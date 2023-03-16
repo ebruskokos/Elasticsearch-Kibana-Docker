@@ -10,9 +10,9 @@ GET _cat/shards/videosearch?v
 
 POST videosearch/_search
 {
-  "query": {
+  "query: {
     "match": {
-      "title": "SEMTEXT"
+      "title": "SEMATEXT"
     }
   }
 }
