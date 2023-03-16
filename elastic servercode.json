@@ -12,7 +12,7 @@ POST videosearch/_search
 {
   "query": {
     "match": {
-      "title": "SEMATEXT"
+      "title": "SEMTEXT"
     }
   }
 }
